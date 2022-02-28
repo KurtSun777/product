@@ -13,8 +13,12 @@ while True:
 
     #p = [name, price]
     #product.append(p)
-    
+
     product.append([name, price])
 print(product)
 
 print(product[0][0])
+
+for p in product:
+    print(p)
+    print(p[0])
